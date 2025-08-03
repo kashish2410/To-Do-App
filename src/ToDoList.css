@@ -1,0 +1,57 @@
+input{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+button{
+    margin: 0rem 1rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+ul{
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 2rem;
+}
+
+.Add{
+    background-color: blue;
+}
+
+.Delete{
+    background-color: red;
+}
+
+.Done{
+    background-color: green;
+}
+
+.NotDone{
+    background-color: rgba(0, 255, 255, 0.353);
+}
+
+.buttons{
+    margin-left: 6rem;
+}
+
+.elements{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: #ff6b6b; /* or cyan for cool glow */
+  text-decoration-thickness: 2.9px;
+  color: #bbb;
+}
+
+
+.elements>span{
+    word-spacing: 10px;
+}
