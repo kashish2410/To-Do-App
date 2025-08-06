@@ -96,7 +96,7 @@ export default function TodoList(){
                     ))
                 }
             </ul>
-            <button className="Done" onClick={taskDone}>All Done</button>
+            <button className="Done All" onClick={taskDone}>All Done</button>
         </div>
     )
 }

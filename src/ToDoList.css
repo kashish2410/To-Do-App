@@ -29,7 +29,9 @@ ul{
 .Done{
     background-color: green;
 }
-
+.Done.All {
+    margin-top: 3rem;
+}
 .NotDone{
     background-color: rgba(0, 255, 255, 0.353);
 }
